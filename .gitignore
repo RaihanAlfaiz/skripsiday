@@ -1,0 +1,72 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/sdks
+.yarn/unplugged
+.yarn/build-state.yml
+
+# Next.js Build & Cache
+/.next/
+/out/
+
+# Production & Build outputs
+/build
+/dist
+
+# Debug & Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# Local Environment Variables
+.env*.local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel deployment folder
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# Temporary Python Scripts & Download Caches
+temp_drive_downloads/
+*.pyc
+__pycache__/
+*.part
+*.tmp
+drive_page.html
+fetch_drive.py
+parse_drive.py
+download_photos.py
+download_gdown.py
+copy_drive_media.py
+download_all_drives.py
+compress_videos.py
+compress_fast.py
+convert_all_fast.py
+cleanup_project.py
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
